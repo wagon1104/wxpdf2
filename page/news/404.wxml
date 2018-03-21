@@ -1,0 +1,5 @@
+<view class="user-container">
+    <text>暂无访问权限，请联系管理员，添加权限</text>
+    <image    src="../../image/user.jpg" mode="widthFix"></image>
+</view>
+

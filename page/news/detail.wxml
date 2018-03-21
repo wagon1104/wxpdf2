@@ -1,0 +1,28 @@
+<!-- <import src="../wxParse/wxParse.wxml"/> 
+
+<view class="page__detail">
+    <view class="detail">
+        <image src='../../image/1.16众凯教育短文训练2-1.png'></image>
+         <view class="detail__title">
+            {{ article.title }}
+        </view>
+        <view class="article__desc">
+          
+            <view class="article__count">     
+              <template is="wxParse" data="{{wxParseData:article.nodes}}"/>           
+                 <text>{{ article.content}}</text>              
+            </view>
+        </view> 
+    </view>
+
+</view> -->
+
+<view class='page'>
+  <swiper indicator-dots="{{indicatorDots}}" circular="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}"  style="width:100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

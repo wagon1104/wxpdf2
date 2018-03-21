@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<image src="../../image/bg2.png" mode="aspectFill" class="bgImg"></image>
+<view class="container">
+  <!-- <image src="../../image/timg.jpg" mode="aspectFit" class="logo"></image> -->
+
+  <view class="signTitle">登录信息</view>
+  <view class="whiteLine"></view>
+
+  <block>
+    <input type="number" bindinput="bindNumInput" bindblur="numChange" placeholder="手机号码" placeholder-class="ph" />
+    <!-- <input type="text" bindinput="bindPsdInput" bindblur="psdChange" placeholder="微信账号" placeholder-class="ph" /> -->
+  </block>
+
+  <button class="loginBtn" bindtap="loginSubmit" plain="true" hover-class="btnHover">登录</button>
+</view>
+<modal title="提示" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+  <view class="newAlert"> {{modelInnerHtml}} </view>
+</modal>
+
+

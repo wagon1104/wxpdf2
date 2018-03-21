@@ -1,0 +1,15 @@
+<view class="bu-list">
+    <block wx:for="{{items}}" wx:key="buName">
+        <view class="bu-list_item bu-list_item_red"   bindtap="{{item.bu}}Click" data-animateindex="{{index}}" animation="{{item.animate}}"  bindtouchstart="touchstart" bindtouchend="touchend">
+            <view class="bu-list_icon bu-list_icon_red"></view>
+            <text class="bu-list_name">{{item.buName}}</text>
+            <view class="bu-list_desc">
+                <text class="bu-list_desc_item">{{item.des}}</text>
+            </view>
+            <text class="bu-list_arrow">></text>
+        </view>
+    </block>
+    <view class="bu-list_item bu-list_item_solgan"></view>
+  
+
+</view>

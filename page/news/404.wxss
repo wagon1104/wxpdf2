@@ -1,0 +1,17 @@
+.user-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.user-container text{
+  margin-bottom:50rpx;
+  color: #D81E06;
+  font-size: 35rpx;
+}
+user-container image{
+ 
+}

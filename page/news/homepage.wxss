@@ -1,0 +1,255 @@
+.bu-list {
+    display: block;
+    padding: 25rpx;
+}
+.bu-list_item {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 150rpx;
+    padding: 40rpx 100rpx 0 205rpx;
+    margin-bottom: 20rpx;
+    background-color: #FD5064;
+    box-sizing: border-box;
+    border-radius: 10rpx;
+    box-shadow: 1px 5px 5px rgba(253,80,100,0.2);
+}
+ .bu-list_item_red {
+    background-color:#D81E06;
+    box-shadow: 1px 5px 5px rgba(60,150,255,0.2);
+ }
+
+.bu-list_item_flight {
+    background-color: #3C96FF;
+    box-shadow: 1px 5px 5px rgba(60,150,255,0.2);
+}
+.bu-list_item_train {
+    background-color: #37B9FF;
+    box-shadow: 1px 5px 5px rgba(55,185,255,0.2);
+}
+.bu-list_item_bus {
+    background-color: #28CDE4;
+    box-shadow: 1px 5px 5px rgba(40,205,228,0.2);
+}
+.bu-list_item_ticket {
+    background-color: #3AD89F;
+    box-shadow: 1px 5px 5px rgba(58,216,159,0.2);
+}
+.bu-list_icon {
+ position:absolute;
+top:25rpx;
+left:46rpx;
+width:82rpx;
+height:111rpx;
+background:url("https://zongkai2.applinzi.com/image/timg.jpg") 0 0 no-repeat;
+background-size:cover;
+
+
+}
+.bu-list_icon_flight {
+    top: 41rpx;
+    width: 114rpx;
+    height: 66rpx;
+  
+}
+.bu-list_icon_train {
+    top: 48rpx;
+    width: 113rpx;
+    height: 52rpx;
+ 
+}
+.bu-list_icon_bus {
+    top: 44rpx;
+    width: 112rpx;
+    height: 61rpx;
+   
+}
+.bu-list_icon_ticket {
+    top: 21rpx;
+    left: 58rpx;
+    width: 96rpx;
+    height: 109rpx;
+  
+}
+.bu-list_name {
+    display: block;
+    font-size: 40rpx;
+    line-height: 1;
+    color: #fff;
+}
+.bu-list_desc {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 16rpx;
+    line-height: 1;
+    white-space: nowrap;
+    font-size: 24rpx;
+    color: #fff;
+    opacity: 0.7;
+}
+.bu-list_arrow {
+    position: absolute;
+    top: 62rpx;
+    right: 43rpx;
+    width: 16rpx;
+    height: 16rpx;
+    font-size: 0;
+    border-right: 5rpx solid #000;
+    border-bottom: 5rpx solid #000;
+    transform: rotate(-45deg);
+    opacity: 0.2;
+}
+.bu-list_item_solgan {
+    width: 100%;
+    height: 120rpx;
+    padding: 0;
+    margin: 56rpx 0 0;
+    text-align: center;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-image:url("http://localhost:5050/image/slogan.png"); */
+    box-shadow: none;
+}
+.coupons_box {
+    position: relative;
+    min-height: 150rpx;
+    margin-top: -156rpx;
+    padding-top: 10rpx;
+    z-index: 2;
+    background-color: #efefef;
+}
+.coupons_title {
+    float: left;
+    font-size: 32rpx;
+    color: #8B8E94;
+}
+.coupons_number {
+    position: relative;
+    float: right;
+    padding-right: 26rpx;
+    font-size: 32rpx;
+    color: #20A8E1;
+}
+.coupons_arrow {
+    position: absolute;
+    top: 10rpx;
+    right: 8rpx;
+    width: 14rpx;
+    height: 14rpx;
+    font-size: 0;
+    border-right: 5rpx solid #28ABE2;
+    border-bottom: 5rpx solid #28ABE2;
+    transform: rotate(-45deg);
+    transform-origin: center center;
+}
+.coupons_list {
+    display: flex;
+    clear: both;
+    width: 100%;
+    padding-top: 18rpx;
+    box-sizing: border-box;
+}
+.coupons_list .coupons_list-item {
+    position: relative;    
+    flex: 1 1 auto;
+    height: 125rpx;
+    margin-right: 8px;
+    padding: 10rpx 0 10rpx 215rpx;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10rpx;
+    box-shadow: 1rpx 10rpx 10rpx rgba(192,192,192,0.2);
+}
+.coupons_list .coupons_list-item::after,
+.coupons_list .coupons_list-item::before {
+    content: "";
+    position: absolute;
+    left: 200rpx;
+    width: 16rpx;
+    height: 16rpx;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #efefef;
+}
+.coupons_list .coupons_list-item::before {
+    top: -6rpx;
+}
+.coupons_list .coupons_list-item::after {
+    height: 8rpx;
+    border-radius: 8rpx 8rpx 0 0;
+    bottom: 0;
+    box-shadow: 1rpx 10rpx 10rpx rgba(192,192,192,0.2) inset;
+}
+.coupons_detail {
+    position: absolute;
+    top: 10rpx;
+    left: 0;
+    box-sizing: border-box;
+    width: 210rpx;
+    padding-top: 6rpx;
+    text-align: center;
+    color: #FD5064;
+    border-right: 1px dashed #ccc;
+}
+.coupons_detail .coupons_con {
+    display: inline-block;
+    font-size: 24rpx;
+    padding: 5rpx 8rpx;
+    border-radius: 8rpx;
+    border: 1px solid #FD5064;
+}
+.coupons_detail .coupons_price {
+    display: block;
+    text-align: center;
+    font-size: 48rpx;
+}
+.coupons_detail .coupons_unit {
+    margin-left: 6rpx;
+    font-size: 32rpx;
+}
+.coupons_type {
+    width: 120rpx;
+    height: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 28rpx;
+    color: #8B8E94;
+}
+.coupons_list .coupons_list-item:only-child {
+    margin-right: 0;
+    padding-left: 275rpx;
+}
+.coupons_list .coupons_list-item:only-child::before,
+.coupons_list .coupons_list-item:only-child::after {
+    left: 260rpx;
+}
+.coupons_list .coupons_list-item:only-child .coupons_detail {
+    width: 268rpx;
+}
+.coupons_list .coupons_list-item:only-child .coupons_type {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15rpx 0 50rpx;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+.coupons_list .coupons_list-item:only-child .coupons_type text {
+    font-size: 32rpx;
+}
+.coupons_list .coupons_list-item:only-child .coupons_type .date {
+    padding-top: 10rpx;
+    font-size: 24rpx;
+    opacity: 0.5;
+}
+.coupons_list .coupons_list-item:nth-child(2) {
+    margin-right: 0;
+    margin-left: 8rpx;
+}

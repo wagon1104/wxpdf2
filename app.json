@@ -1,0 +1,43 @@
+{
+  "pages": [
+     "page/news/homepage",
+    "page/news/login",
+  
+    "page/news/index",
+    "page/user/index",
+    "page/news/detail",
+    "page/news/math",
+    "page/news/meizhouyilian",
+    "page/news/laoxushuxue",
+    "page/news/yingyubiji",
+    "page/news/404"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D81E06",
+    "navigationBarTitleText": "列表页",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/news/homepage",
+        "iconPath": "image/icon-news.png",
+        "selectedIconPath": "image/icon-news-a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "page/user/index",
+        "iconPath": "image/icon-user.png",
+        "selectedIconPath": "image/icon-user-a.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
