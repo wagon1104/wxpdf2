@@ -18,9 +18,9 @@
 </view> -->
 
 <view class='page'>
-  <swiper indicator-dots="{{indicatorDots}}" circular="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <swiper indicator-dots="{{indicatorDots}}" vertical="true"  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
         <block wx:for="{{imgUrls}}">
-            <swiper-item>
+            <swiper-item >
             <image src="{{item}}"  style="width:100%"/>
             </swiper-item>
         </block>
