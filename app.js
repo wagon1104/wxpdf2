@@ -86,7 +86,7 @@ App({
     });
     //newsList
     wx.request({
-      url: host + '/names2.json',
+      url: host + '/names.json',
       method: 'GET',
       header: {
         'Accept': 'application/json'
