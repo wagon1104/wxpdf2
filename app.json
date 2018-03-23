@@ -1,8 +1,8 @@
 {
   "pages": [
-     "page/news/homepage",
+    "page/news/homepage2",
+    "page/news/homepage",
     "page/news/login",
-  
     "page/news/index",
     "page/user/index",
     "page/news/detail",
@@ -10,7 +10,8 @@
     "page/news/meizhouyilian",
     "page/news/laoxushuxue",
     "page/news/yingyubiji",
-    "page/news/404"
+    "page/news/404",
+      "page/news/shuxuebiji"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,7 +27,7 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "page/news/homepage",
+        "pagePath": "page/news/homepage2",
         "iconPath": "image/icon-news.png",
         "selectedIconPath": "image/icon-news-a.png",
         "text": "首页"

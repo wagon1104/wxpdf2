@@ -1,11 +1,5 @@
 <view class="page">   
-    <swiper indicator-dots="{{indicatorDots}}" circular="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{imgUrls}}">
-            <swiper-item>
-            <image src="{{item}}" class="slide-image" style="width:100%"/>
-            </swiper-item>
-        </block>
-    </swiper>
+
     <view class="page__bd">        
         <view class="weui-panel weui-panel_access">           
             <view class="weui-panel__bd" wx:for="{{newList}}" wx:for-item="item">

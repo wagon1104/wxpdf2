@@ -70,6 +70,9 @@ Page({
       if (type == "yingyubiji") {
         title = "英语笔记"
       }
+      if (type == "shuxuebiji") {
+        title = "数学笔记"
+      }
       
       wx.setNavigationBarTitle({
         title: title + " " + id

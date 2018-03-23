@@ -1,0 +1,29 @@
+<template name="advertise">
+<view class="mkt-ad-ccc" style="display:{{display}}">
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indcolor}}" indicator-active-color="{{actcolor}}" circular="{{circular}}" style="width:100%px;height:190rpx" 
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+       <image src="{{item.srcUrl}}" class="slide-image" style="width:100%;height:100%"  bindtap="marketAdvertiseClick" data-positionId="{{item.positionId}}"  data-linkUrl="{{item.linkUrl}}" />
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+</template>
+
+<view class="slider-show">
+<template is="advertise" data="{{...AdvertiseData}}"/>
+</view>
+<view class="bu-list">
+    <view class="bu-list-wrap">
+        <block wx:for="{{items}}" wx:key="buName">
+            <view class="bu-list_item bu-list_item_{{item.bu}}" data-ubt-key="{{item.ubt}}"  bindtap="{{item.bu}}Click" data-animateindex="{{index}}" animation="{{item.animate}}"  bindtouchstart="touchstart" bindtouchend="touchend">
+                 <text class="bu-list_name">{{item.buName}}</text> 
+            </view>
+        </block>
+    </view>
+  
+
+   
+    <view class="bu-list_item_solgan"><text style="color:#EFF2F6;font-size:40rpx;display:block;line-height:1;">为梦想加油!</text> </view>
+</view>
