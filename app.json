@@ -11,7 +11,12 @@
     "page/news/laoxushuxue",
     "page/news/yingyubiji",
     "page/news/404",
-      "page/news/shuxuebiji"
+    "page/news/shuxuebiji",
+    "page/news/mianshi",
+    "page/news/yuwen",
+    "page/news/luoji",
+    "page/news/yule",
+    "page/news/jingyan"
   ],
   "window": {
     "backgroundTextStyle": "light",

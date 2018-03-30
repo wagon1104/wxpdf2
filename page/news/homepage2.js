@@ -69,6 +69,51 @@ Page({
         url: "./shuxuebiji",
         animate: {}
 
+      },
+      {
+        bu: "mianshi",
+        buName: "面试指导",
+        des: "面试指导",  // 暂时随便使用一个名称，请修改为最终使用的
+        // des: "景区演出 / 餐饮 / 服务",  // des 部分应该是不需要的了
+        url: "./mianshi",  // url 未修改，请修改
+        animate: {}
+      },
+      // {
+      //   bu: "yuwen",
+      //   buName: "语文",
+      //   des: "语文",
+      //   url: "./yuwen",
+      //   animate: {}
+      // },
+      // {
+      //   bu: "luoji",
+      //   buName: "逻辑",
+      //   des: "逻辑",
+      //   url: "./luoji",  // url 未修改，请修改
+      //   animate: {}
+      // },
+      {
+        bu: "jingyan",
+        buName: "经验分享",
+        des: "经验分享",  //
+        url: "./jingyan",  // url 未修改，请修改
+        animate: {}
+      },
+      {
+        bu: "yule",
+        buName: "娱乐八卦",
+      
+        des: "娱乐八卦",
+        url: "./yule",  // url 未修改，请修改
+        animate: {}
+      }
+      ,
+      {
+        bu: "gaoxiaoxinxi",
+        buName: "高校信息",
+        des: "高校信息",
+        url: "./gaoxiaoxinxi",  // url 未修改，请修改
+        animate: {}
       }
     ],
     marketFloatData: {
